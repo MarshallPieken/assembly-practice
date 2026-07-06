@@ -10,4 +10,4 @@ nasm -felf64 -test.asm -o test.o
 ld test.o -o test.out
 ```
 
-The nasm one asssembles test.asm with as a NASM file with unlinked variables; the ld command links them and outputs the test.out file.
+The nasm command asssembles test.asm with as a NASM file with unlinked variables; the ld command links them and outputs the test.out file.
