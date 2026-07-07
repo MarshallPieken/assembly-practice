@@ -8,6 +8,7 @@ If you're on x86_64 Linux (like me), and using NASM you can run these commands t
 ```
 nasm -felf64 -test.asm -o test.o
 ld test.o -o test.out
+./test.out
 ```
 
-The nasm command asssembles test.asm with as a NASM file with unlinked variables; the ld command links them and outputs the test.out file.
+The nasm command asssembles test.asm with as a NASM file with unlinked variables; the ld command links them and outputs the test.out file to then be executed.
