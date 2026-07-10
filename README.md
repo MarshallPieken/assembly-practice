@@ -6,7 +6,7 @@ These are in NASM x86_64 Linux intel syntax.
 If you're on x86_64 Linux (like me), and using NASM you can run these commands to execute assembly programs:
 
 ```
-nasm -felf64 -test.asm -o test.o
+nasm -felf64 test.asm -o test.o
 ld test.o -o test.out
 ./test.out
 ```
