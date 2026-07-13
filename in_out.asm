@@ -2,13 +2,12 @@
 ;https://www.youtube.com/playlist?list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn
 ;
 ; The purpose of this program is to practice calling subroutines in an asm program for I/O.
-; After this, I can focus on creating more loops, complicated logic, and netowrking projects!
 ;
 ; Program flow:
 ; 	Print "what is your name?"
 ; 	User inserts input
 ; 	Prints "Hello, {name}"
-
+; Feel free to figure out how to execute arbitrary code with this program.
 
 	section .data
 	text1 	db "What is your name? ", 10	; prompt
